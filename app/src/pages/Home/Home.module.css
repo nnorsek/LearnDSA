@@ -1,3 +1,55 @@
-.title_subtext {
-    color: oklch(41.952% 0.01432 264.44);
+.container {
+  position: relative;
+  background: linear-gradient(to bottom right, #eff6ff, #ffffff, #f5f3ff);
+}
+
+.sizing {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10rem 5rem;
+}
+
+.outline {
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.infoIconContainer {
+  padding: 0.5rem 1rem;
+  background-color: lightblue;
+  border-radius: 1rem;
+  display: inline-flex; /* what does this do */
+}
+
+.infoIcon {
+  color: darkblue;
+}
+
+.titleText {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: rgb(90, 90, 90);
+}
+
+.buttons {
+  display: flex;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+.getstartedforfree {
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: large;
+  background-color: rgb(51, 51, 238);
 }
