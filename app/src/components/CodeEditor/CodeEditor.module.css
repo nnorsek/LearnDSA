@@ -1,0 +1,45 @@
+.container {
+  border-radius: 1.5rem;
+  background-color: #262626;
+}
+
+.codeEditor {
+  overflow: hidden;
+  border: 1px solid #374151;
+  background-color: #1f2937;
+  border-radius: 0 0 1.5rem 1.5rem;
+  border-top: none;
+}
+
+.controls {
+}
+
+.codeChangeButton {
+  display: inline-flex;
+  border-radius: 1.5rem;
+
+  align-items: center;
+  text-align: center;
+  gap: 0.2rem;
+  border: none;
+  background-color: #282828;
+  color: #ffff;
+  padding: 0.5rem 1rem;
+}
+
+.codeChangeButton:hover {
+  background-color: #404040;
+  cursor: pointer;
+}
+
+.codeMenu {
+  position: absolute;
+  z-index: 50;
+  background-color: #676767;
+}
+
+.codeOptions {
+  list-style: none;
+  color: #ffff;
+  padding: 5px;
+}
